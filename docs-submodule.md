@@ -1,0 +1,3 @@
+# Git Submodule Documentation
+
+Git submodules are a useful feature for managing nested repositories within a parent project. They allow you to keep a git repository as a subdirectory of another git repository, enabling you to clone a repository that contains submodules and have git automatically pull in the nested dependencies. This is particularly helpful when you want to include external libraries or shared code that you don't want to directly merge into your main codebase, as it keeps your project structure organized and makes it easier to maintain separate version control for different components.
